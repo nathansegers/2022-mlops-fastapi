@@ -16,7 +16,7 @@ users = [
     }
 ]
 
-with open('../../birds.json', 'r') as f:
+with open('../birds.json', 'r') as f:
   birds = json.load(f)
 
 @app.get("/")
