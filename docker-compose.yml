@@ -3,3 +3,10 @@ services:
     image: mariadb:10.9.3
     ports:
       - 3306:3306
+    env_file:
+      - .env
+  
+  adminer:
+    image: adminer:latest
+    ports:
+      - 9999:9999
