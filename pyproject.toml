@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "fastapi"
+name = "fastapi-01"
 version = "0.1.0"
-description = "MLOps Class 1 -- FastAPI"
+description = ""
 authors = ["Nathan Segers <nathan.segers@howest.be>"]
 readme = "README.md"
 
