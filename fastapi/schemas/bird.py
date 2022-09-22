@@ -11,5 +11,8 @@ class Bird(BaseModel):
     food: dict
     see: str
 
+    class Config:
+        orm_mode = True
+
     def sayHello(self):
         print("Hello, I am " + self.name)

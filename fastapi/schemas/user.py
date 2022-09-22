@@ -11,5 +11,8 @@ class User(BaseModel):
     gender: str
     registrationDate: datetime
 
+    class Config:
+        orm_mode = True
+
     def sayHello(self):
         print("Hello, I am " + self.name)
